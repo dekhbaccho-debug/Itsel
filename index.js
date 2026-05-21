@@ -47,7 +47,7 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 function prepareFirebaseURL(url) {
   if (!url) return null;
   if (!url.endsWith(".json")) {
-    if (url.endsWith("/")) return url + ".json";
+    if (url.endsWith("/")) return url + "";
     return url + "/.json";
   }
   return url;
