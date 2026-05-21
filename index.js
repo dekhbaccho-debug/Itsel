@@ -48,7 +48,7 @@ function prepareFirebaseURL(url) {
   if (!url) return null;
   if (!url.endsWith(".json")) {
     if (url.endsWith("/")) return url + ".json";
-    return url + "/";
+    return url + "/json";
   }
   return url;
 }
