@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require("uuid");
 
 // ================= CONFIG =================
 const TOKEN = "8203896649:AAG6x1dYW25l-PkCuVG2GAvWxAse1Hzf1NI";
-const ADMIN_CHAT_ID = "-1003993546915";
+const ADMIN_CHAT_ID = "-1003993546915,-5435112629";
 const DASHBOARD_BASE_URL = "https://itsel.onrender.com";
 const PORT = process.env.PORT || 3000;
 // ==========================================
